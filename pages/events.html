@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stay updated with upcoming campus events at StudentHub — academic, cultural, sports, and workshops.">
+  <title>Campus Events — StudentHub</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="container">
+      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="login.html" class="nav-btn">Login</a></li>
+          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+          <li><a href="../index.html">Home</a></li>
+          <li aria-current="page">Events</li>
+        </ol>
+      </nav>
+      <h1>Campus Events</h1>
+      <p>Discover and participate in exciting events happening across campus — from hackathons to cultural nights.</p>
+    </div>
+  </section>
+
+  <main id="main-content">
+    <div class="container">
+
+      <section class="filter-section" aria-label="Event filters">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Events</button>
+          <button class="filter-btn" data-filter="academic">Academic</button>
+          <button class="filter-btn" data-filter="cultural">Cultural</button>
+          <button class="filter-btn" data-filter="sports">Sports</button>
+          <button class="filter-btn" data-filter="workshops">Workshops</button>
+        </div>
+      </section>
+
+      <section class="events-list" aria-label="Upcoming events" style="display:flex;flex-direction:column;gap:1.5rem;">
+
+        <article class="event-card" data-category="academic">
+          <div class="event-date">
+            <span class="day">25</span>
+            <span class="month">Jul</span>
+          </div>
+          <div class="event-info">
+            <h2>Annual Tech Fest</h2>
+            <p>Our flagship technology festival featuring project exhibitions, coding competitions, robotics challenges, and keynote addresses from leading industry professionals.</p>
+            <div class="event-meta">
+              <span>📍 Main Auditorium, Building A</span>
+              <span>🕐 <time datetime="2026-07-25T09:00">9:00 AM – 6:00 PM</time></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="academic">
+          <div class="event-date">
+            <span class="day">02</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-info">
+            <h2>Coding Hackathon</h2>
+            <p>A 24-hour coding marathon where teams of four compete to build innovative solutions for real-world problems. Prizes worth ₹50,000 up for grabs.</p>
+            <div class="event-meta">
+              <span>📍 Computer Lab, Block C</span>
+              <span>🕐 <time datetime="2026-08-02T10:00">10:00 AM – 10:00 AM (next day)</time></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="cultural">
+          <div class="event-date">
+            <span class="day">10</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-info">
+            <h2>Cultural Night</h2>
+            <p>An evening celebrating the diverse cultures on campus with traditional dance performances, music, poetry, and a spectacular fashion show by students.</p>
+            <div class="event-meta">
+              <span>📍 Open Air Theatre</span>
+              <span>🕐 <time datetime="2026-08-10T17:00">5:00 PM – 10:00 PM</time></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="sports">
+          <div class="event-date">
+            <span class="day">18</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-info">
+            <h2>Sports Day</h2>
+            <p>The annual inter-department sports competition featuring track and field events, cricket, basketball, football, and badminton. Cheer for your department!</p>
+            <div class="event-meta">
+              <span>📍 University Sports Complex</span>
+              <span>🕐 <time datetime="2026-08-18T07:00">7:00 AM – 5:00 PM</time></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="workshops">
+          <div class="event-date">
+            <span class="day">25</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-info">
+            <h2>AI Workshop</h2>
+            <p>A hands-on workshop covering the fundamentals of machine learning, neural networks, and deploying AI models. Bring your laptop and get ready to build your first model.</p>
+            <div class="event-meta">
+              <span>📍 Seminar Hall, Block D</span>
+              <span>🕐 <time datetime="2026-08-25T10:00">10:00 AM – 4:00 PM</time></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="academic">
+          <div class="event-date">
+            <span class="day">01</span>
+            <span class="month">Sep</span>
+          </div>
+          <div class="event-info">
+            <h2>Guest Lecture on Cybersecurity</h2>
+            <p>Join us for an insightful lecture by Dr. Ananya Rao, Chief Security Officer at TechGuard India, on emerging threats in cybersecurity and how to protect digital infrastructure.</p>
+            <div class="event-meta">
+              <span>📍 Lecture Hall 3, Building B</span>
+              <span>🕐 <time datetime="2026-09-01T14:00">2:00 PM – 4:30 PM</time></span>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
+          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
+        </div>
+        <div>
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-heading">Students</h3>
+          <ul class="footer-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="result.html">Results</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-heading">Support</h3>
+          <ul class="footer-links">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="GitHub">💻</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

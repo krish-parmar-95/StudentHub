@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View your course-wise attendance records and overall attendance percentage on StudentHub.">
+  <title>Attendance Record — StudentHub</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="login.html" class="nav-btn">Login</a></li>
+          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Attendance</li>
+        </ol>
+      </nav>
+      <h1>Attendance Record</h1>
+      <p>Monitor your class attendance across all enrolled courses for the current semester.</p>
+    </div>
+  </section>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+
+        <!-- Stat Cards -->
+        <div class="admin-stats">
+          <article class="stat-card">
+            <span class="stat-icon stat-icon-green" aria-hidden="true">📊</span>
+            <div class="stat-info">
+              <h2 class="stat-number">92%</h2>
+              <p class="stat-label">Overall Attendance</p>
+            </div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-icon-blue" aria-hidden="true">✅</span>
+            <div class="stat-info">
+              <h2 class="stat-number">110/120</h2>
+              <p class="stat-label">Classes Attended</p>
+            </div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-icon-purple" aria-hidden="true">📅</span>
+            <div class="stat-info">
+              <h2 class="stat-number">15</h2>
+              <p class="stat-label">Classes Remaining</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Attendance Table -->
+        <section aria-labelledby="course-attendance-heading">
+          <h2 id="course-attendance-heading">Course-Wise Attendance</h2>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Course</th>
+                  <th scope="col">Total Classes</th>
+                  <th scope="col">Present</th>
+                  <th scope="col">Absent</th>
+                  <th scope="col">Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Data Structures &amp; Algorithms</td>
+                  <td>22</td>
+                  <td>21</td>
+                  <td>1</td>
+                  <td><span class="text-success">95%</span></td>
+                </tr>
+                <tr>
+                  <td>Web Development Fundamentals</td>
+                  <td>20</td>
+                  <td>19</td>
+                  <td>1</td>
+                  <td><span class="text-success">95%</span></td>
+                </tr>
+                <tr>
+                  <td>Database Management Systems</td>
+                  <td>20</td>
+                  <td>18</td>
+                  <td>2</td>
+                  <td><span class="text-success">90%</span></td>
+                </tr>
+                <tr>
+                  <td>Operating Systems</td>
+                  <td>22</td>
+                  <td>20</td>
+                  <td>2</td>
+                  <td><span class="text-success">91%</span></td>
+                </tr>
+                <tr>
+                  <td>Computer Networks</td>
+                  <td>18</td>
+                  <td>17</td>
+                  <td>1</td>
+                  <td><span class="text-success">94%</span></td>
+                </tr>
+                <tr>
+                  <td>Software Engineering</td>
+                  <td>18</td>
+                  <td>15</td>
+                  <td>3</td>
+                  <td><span class="text-success">83%</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
+          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
+        </div>
+        <div>
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-heading">Students</h3>
+          <ul class="footer-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="result.html">Results</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-heading">Support</h3>
+          <ul class="footer-links">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="GitHub">💻</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
