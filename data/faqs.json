@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do I register for a new semester?",
+    "answer": "Log in to the student portal and navigate to the 'Semester Registration' section. Fill in the required course details and submit the form before the deadline mentioned in the academic calendar.",
+    "category": "Academic"
+  },
+  {
+    "id": 2,
+    "question": "What is the minimum attendance requirement?",
+    "answer": "Students must maintain a minimum of 75% attendance in each subject to be eligible to appear for the end-semester examinations. Shortage of attendance may result in being detained.",
+    "category": "Academic"
+  },
+  {
+    "id": 3,
+    "question": "How can I reset my student portal password?",
+    "answer": "Click on the 'Forgot Password' link on the login page and enter your registered email address. A password reset link will be sent to your email within a few minutes.",
+    "category": "Technical"
+  },
+  {
+    "id": 4,
+    "question": "What documents are required for admission?",
+    "answer": "You need to submit your 10th and 12th marksheets, entrance exam scorecard, transfer certificate, migration certificate, passport-size photographs, and Aadhaar card at the time of admission.",
+    "category": "Admission"
+  },
+  {
+    "id": 5,
+    "question": "When are the end-semester exams scheduled?",
+    "answer": "End-semester examinations are typically held in May and December each year. The exact dates are published on the college website and notice board at least four weeks in advance.",
+    "category": "Examination"
+  },
+  {
+    "id": 6,
+    "question": "How do I pay my semester fees online?",
+    "answer": "Go to the student portal, click on 'Fee Payment', and choose your preferred payment method such as UPI, net banking, or debit/credit card. A receipt will be generated after successful payment.",
+    "category": "General"
+  },
+  {
+    "id": 7,
+    "question": "How do I apply for hostel accommodation?",
+    "answer": "Fill out the hostel application form available on the student portal or at the hostel office. Allotment is done on a first-come, first-served basis and is subject to availability of rooms.",
+    "category": "General"
+  },
+  {
+    "id": 8,
+    "question": "What are the library timings?",
+    "answer": "The central library is open from 8:00 AM to 8:00 PM on weekdays and 9:00 AM to 5:00 PM on Saturdays. The library remains closed on Sundays and public holidays.",
+    "category": "General"
+  },
+  {
+    "id": 9,
+    "question": "How does the campus placement process work?",
+    "answer": "The Training and Placement Cell coordinates with companies for on-campus recruitment. Eligible students can register through the placement portal and participate in aptitude tests, group discussions, and interviews.",
+    "category": "Academic"
+  },
+  {
+    "id": 10,
+    "question": "Can I apply for a re-evaluation of my exam paper?",
+    "answer": "Yes, you can apply for re-evaluation within 15 days of the result declaration by submitting the re-evaluation form along with the prescribed fee at the examination cell.",
+    "category": "Examination"
+  },
+  {
+    "id": 11,
+    "question": "What is the procedure for branch change?",
+    "answer": "Branch change requests are considered after the first year based on CGPA and seat availability. Students must apply through the academic office during the notified window period.",
+    "category": "Admission"
+  },
+  {
+    "id": 12,
+    "question": "How do I access the college Wi-Fi network?",
+    "answer": "Connect to the 'StudentHub-WiFi' network and log in using your student ID and portal password. Contact the IT helpdesk if you face any connectivity issues.",
+    "category": "Technical"
+  },
+  {
+    "id": 13,
+    "question": "What is the grading system used for CGPA calculation?",
+    "answer": "The college follows a 10-point CGPA grading system where each subject is assigned a grade point based on marks scored. The CGPA is the weighted average of grade points across all semesters.",
+    "category": "Examination"
+  },
+  {
+    "id": 14,
+    "question": "Is there a scholarship or fee concession available?",
+    "answer": "Yes, scholarships are available for meritorious students and those from economically weaker sections. Apply through the scholarship portal with supporting documents before the application deadline.",
+    "category": "Admission"
+  },
+  {
+    "id": 15,
+    "question": "How do I report a technical issue with the student portal?",
+    "answer": "Send an email to itsupport@studenthub.edu with a screenshot of the issue and your student ID. The IT team typically resolves reported issues within 24 to 48 working hours.",
+    "category": "Technical"
+  }
+]

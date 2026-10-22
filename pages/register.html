@@ -1,137 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Create your StudentHub account to manage your academic journey.">
-  <title>Register - StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create a new StudentHub account to access your academic portal.">
+    <title>Register - StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary active" aria-current="page">Register</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<a href="#main-content">Skip to main content</a>
 
-  <main id="main-content">
-    <div class="auth-container">
-      <div class="auth-card">
-        <div class="auth-header">
-          <h1>Create Account</h1>
-          <p>Join StudentHub today</p>
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="result.html">Results</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <strong><a href="register.html">Register</a></strong>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
+
+<main id="main-content">
+
+    <section>
+        <h2>&#128221; Create a New Account</h2>
+        <p>Fill in all fields below. All fields marked <span class="required-star" aria-hidden="true">*</span> are required.</p>
+
+        <!-- SUCCESS MESSAGE (hidden initially) -->
+        <div id="form-success" class="form-success" role="alert" aria-live="polite" style="display:none;">
+            &#10003; Account created successfully! <a href="login.html">Click here to login</a>.
         </div>
 
-        <form action="#" method="post" class="auth-form">
-          <fieldset>
-            <legend>Personal Information</legend>
+        <form id="registration-form" action="#" method="post" novalidate>
 
+            <!-- ── PERSONAL INFORMATION ───────────────────────────── -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="fullname">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                    <input type="text" id="fullname" name="fullname"
+                           placeholder="e.g. Krish Parmar"
+                           autocomplete="name"
+                           aria-required="true"
+                           aria-describedby="fullname-error">
+                    <span class="field-error" id="fullname-error" role="alert" aria-live="polite"></span>
+                    <span class="field-hint">Only letters and spaces allowed (2–50 characters).</span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email"
+                           placeholder="e.g. krish@college.edu"
+                           autocomplete="email"
+                           aria-required="true"
+                           aria-describedby="email-error">
+                    <span class="field-error" id="email-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Mobile Number -->
+                <div class="form-group">
+                    <label for="mobile">Mobile Number <span class="required-star" aria-hidden="true">*</span></label>
+                    <input type="tel" id="mobile" name="mobile"
+                           placeholder="e.g. 9876543210"
+                           autocomplete="tel"
+                           aria-required="true"
+                           aria-describedby="mobile-error"
+                           maxlength="10">
+                    <span class="field-error" id="mobile-error" role="alert" aria-live="polite"></span>
+                    <span class="field-hint">10-digit Indian mobile number.</span>
+                </div>
+
+                <!-- Gender -->
+                <div class="form-group">
+                    <label>Gender <span class="required-star" aria-hidden="true">*</span></label>
+                    <div class="radio-group" role="radiogroup" aria-describedby="gender-error">
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="male"> Male
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="other"> Other
+                        </label>
+                    </div>
+                    <span class="field-error" id="gender-error" role="alert" aria-live="polite"></span>
+                </div>
+
+            </fieldset>
+
+            <!-- ── ACADEMIC INFORMATION ───────────────────────────── -->
+            <fieldset>
+                <legend>Academic Information</legend>
+
+                <!-- Course -->
+                <div class="form-group">
+                    <label for="course">Course <span class="required-star" aria-hidden="true">*</span></label>
+                    <select id="course" name="course"
+                            aria-required="true"
+                            aria-describedby="course-error">
+                        <option value="">-- Select your course --</option>
+                        <option value="bca">BCA – Bachelor of Computer Applications</option>
+                        <option value="bsc-cs">BSc Computer Science</option>
+                        <option value="bsc-it">BSc Information Technology</option>
+                        <option value="be-cs">BE Computer Science</option>
+                        <option value="be-it">BE Information Technology</option>
+                        <option value="mca">MCA – Master of Computer Applications</option>
+                        <option value="msc-cs">MSc Computer Science</option>
+                    </select>
+                    <span class="field-error" id="course-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Year -->
+                <div class="form-group">
+                    <label for="year">Year of Study <span class="required-star" aria-hidden="true">*</span></label>
+                    <select id="year" name="year"
+                            aria-required="true"
+                            aria-describedby="year-error">
+                        <option value="">-- Select year --</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                    <span class="field-error" id="year-error" role="alert" aria-live="polite"></span>
+                </div>
+
+            </fieldset>
+
+            <!-- ── ACCOUNT SECURITY ──────────────────────────────── -->
+            <fieldset>
+                <legend>Account Security</legend>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password <span class="required-star" aria-hidden="true">*</span></label>
+                    <div class="input-toggle-wrap">
+                        <input type="password" id="password" name="password"
+                               placeholder="Create a strong password"
+                               autocomplete="new-password"
+                               aria-required="true"
+                               aria-describedby="password-error password-strength-text">
+                        <button type="button" class="toggle-password" onclick="togglePasswordVisibility('password', this)" aria-label="Show password">&#128065;</button>
+                    </div>
+                    <span class="field-error" id="password-error" role="alert" aria-live="polite"></span>
+
+                    <!-- Password Strength Meter -->
+                    <div class="strength-meter" aria-hidden="true">
+                        <div class="strength-bar" id="strength-bar"></div>
+                    </div>
+                    <span class="strength-text" id="password-strength-text" aria-live="polite"></span>
+                    <span class="field-hint">Min 8 characters, with uppercase, lowercase, number &amp; special character.</span>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password <span class="required-star" aria-hidden="true">*</span></label>
+                    <div class="input-toggle-wrap">
+                        <input type="password" id="confirmpassword" name="confirmpassword"
+                               placeholder="Re-enter your password"
+                               autocomplete="new-password"
+                               aria-required="true"
+                               aria-describedby="confirmpassword-error">
+                        <button type="button" class="toggle-password" onclick="togglePasswordVisibility('confirmpassword', this)" aria-label="Show confirm password">&#128065;</button>
+                    </div>
+                    <span class="field-error" id="confirmpassword-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Terms -->
+                <div class="form-group terms-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="terms" name="terms"
+                               aria-required="true"
+                               aria-describedby="terms-error">
+                        I agree to the <a href="#" onclick="openModal('terms-modal'); return false;">Terms and Conditions</a>
+                        <span class="required-star" aria-hidden="true">*</span>
+                    </label>
+                    <span class="field-error" id="terms-error" role="alert" aria-live="polite"></span>
+                </div>
+
+            </fieldset>
+
+            <!-- CAPTCHA (Practical 5 – Advanced) -->
+            <fieldset>
+                <legend>&#128274; Security Check</legend>
+                <div class="form-group">
+                    <label for="captcha-input">Enter the code shown below <span class="required-star" aria-hidden="true">*</span></label>
+                    <div class="captcha-wrapper">
+                        <canvas id="captcha-canvas" width="200" height="50" aria-label="CAPTCHA image"></canvas>
+                        <button type="button" id="refresh-captcha" onclick="generateCaptcha()" aria-label="Refresh CAPTCHA">&#128260; New Code</button>
+                    </div>
+                    <input type="text" id="captcha-input" name="captcha"
+                           placeholder="Type the code above"
+                           autocomplete="off"
+                           aria-required="true"
+                           aria-describedby="captcha-error">
+                    <span class="field-error" id="captcha-error" role="alert" aria-live="polite"></span>
+                </div>
+            </fieldset>
+
+            <!-- Submit -->
             <div class="form-group">
-              <label for="reg-fullname">Full Name</label>
-              <input type="text" id="reg-fullname" name="fullname" required placeholder="Enter your full name" autocomplete="name">
+                <button type="submit" id="submit-btn">&#128274; Create Account</button>
+                <button type="reset" id="reset-btn" onclick="resetForm()">&#128259; Reset</button>
             </div>
 
-            <div class="form-group">
-              <label for="reg-email">Email Address</label>
-              <input type="email" id="reg-email" name="email" required placeholder="you@university.edu" autocomplete="email">
-            </div>
-
-            <div class="form-group">
-              <label for="reg-student-id">Student ID</label>
-              <input type="text" id="reg-student-id" name="student_id" required placeholder="e.g. STU2026001">
-            </div>
-
-            <div class="form-group">
-              <label for="reg-password">Password</label>
-              <input type="password" id="reg-password" name="password" required placeholder="Create a strong password" autocomplete="new-password" aria-describedby="password-requirements">
-              <small id="password-requirements" class="form-helper">Must be at least 8 characters with one uppercase letter, one number, and one special character.</small>
-            </div>
-
-            <div class="form-group">
-              <label for="reg-confirm-password">Confirm Password</label>
-              <input type="password" id="reg-confirm-password" name="confirm_password" required placeholder="Re-enter your password" autocomplete="new-password">
-            </div>
-          </fieldset>
-
-          <div class="form-check">
-            <input type="checkbox" id="agree-terms" name="terms" required>
-            <label for="agree-terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
-          </div>
-
-          <button type="submit" class="btn btn-primary w-full">Create Account</button>
         </form>
 
-        <div class="auth-footer">
-          <p>Already have an account? <a href="login.html">Sign in</a></p>
-        </div>
-      </div>
-    </div>
-  </main>
+        <hr>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
-            <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+</main>
 
-  <script src="../js/main.js"></script>
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+
+<!-- Terms & Conditions Modal -->
+<div id="terms-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="terms-modal-title">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('terms-modal')" aria-label="Close modal">&times;</button>
+        <h2 id="terms-modal-title">Terms and Conditions</h2>
+        <p>By registering on StudentHub, you agree to:</p>
+        <ul>
+            <li>Provide accurate and up-to-date personal information.</li>
+            <li>Not share your account credentials with others.</li>
+            <li>Use the platform only for academic purposes.</li>
+            <li>Respect the privacy and rights of other students and faculty.</li>
+            <li>Comply with the college's code of conduct at all times.</li>
+        </ul>
+        <p>StudentHub reserves the right to suspend accounts that violate these terms.</p>
+        <button onclick="acceptTerms()">&#10003; I Accept</button>
+        <button onclick="closeModal('terms-modal')" style="background:#888; margin-left:10px;">Cancel</button>
+    </div>
+</div>
+
+<script src="../js/main.js"></script>
+<script src="../js/register.js"></script>
 </body>
 </html>

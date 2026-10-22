@@ -1,154 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Browse available courses at StudentHub.">
-  <title>Course Catalog — StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudentHub Courses — Browse the courses available this semester.">
+    <title>Courses — StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li><a href="courses.html" class="active" aria-current="page">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<a href="#main-content">Skip to main content</a>
 
-  <section class="page-header">
-    <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Courses</li>
-        </ol>
-      </nav>
-      <h1>Course Catalog</h1>
-      <p>Explore our comprehensive range of computer science courses designed to build your skills from fundamentals to advanced topics.</p>
-    </div>
-  </section>
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <strong><a href="courses.html">Courses</a></strong> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="result.html">Results</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
 
-  <main id="main-content">
-    <section class="section">
-      <div class="container">
-        <div class="cards-grid">
+<main id="main-content">
 
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🧮</div>
-            <h2 class="card-title">Data Structures &amp; Algorithms</h2>
-            <p class="card-text">Master arrays, linked lists, trees, graphs, sorting, and searching algorithms. Build a strong foundation in computational problem-solving.</p>
-            <span class="badge badge-info">Semester 3</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
+    <section>
+        <h2>Course Catalog</h2>
+        <p>Browse the courses available this semester.</p>
 
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🌐</div>
-            <h2 class="card-title">Web Development Fundamentals</h2>
-            <p class="card-text">Learn HTML, CSS, and JavaScript to build responsive, accessible websites. Covers modern frameworks, REST APIs, and deployment workflows.</p>
-            <span class="badge badge-info">Semester 3</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🗄️</div>
-            <h2 class="card-title">Database Management Systems</h2>
-            <p class="card-text">Study relational databases, SQL queries, normalization, indexing, and transaction management. Includes hands-on projects with MySQL and PostgreSQL.</p>
-            <span class="badge badge-info">Semester 4</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">⚙️</div>
-            <h2 class="card-title">Operating Systems</h2>
-            <p class="card-text">Understand process management, memory allocation, file systems, and concurrency. Lab sessions cover Linux kernel modules and scheduling algorithms.</p>
-            <span class="badge badge-success">Semester 4</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🔗</div>
-            <h2 class="card-title">Computer Networks</h2>
-            <p class="card-text">Explore the OSI model, TCP/IP protocols, routing, switching, and network security. Practical labs with Wireshark and Cisco Packet Tracer.</p>
-            <span class="badge badge-success">Semester 5</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🛠️</div>
-            <h2 class="card-title">Software Engineering</h2>
-            <p class="card-text">Learn software development lifecycles, Agile methodologies, UML diagrams, testing strategies, and project management for real-world applications.</p>
-            <span class="badge badge-success">Semester 5</span>
-            <a href="#" class="btn btn-sm">View Details</a>
-          </article>
-
-        </div>
-      </div>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Course Name</th>
+                    <th>Faculty</th>
+                    <th>Credits</th>
+                    <th>Semester</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS301</td>
+                    <td>Data Structures &amp; Algorithms</td>
+                    <td>Prof. Sharma</td>
+                    <td>4</td>
+                    <td>Sem 5</td>
+                </tr>
+                <tr>
+                    <td>CS302</td>
+                    <td>Web Development</td>
+                    <td>Prof. Iyer</td>
+                    <td>3</td>
+                    <td>Sem 5</td>
+                </tr>
+                <tr>
+                    <td>CS303</td>
+                    <td>Database Management</td>
+                    <td>Prof. Kulkarni</td>
+                    <td>4</td>
+                    <td>Sem 5</td>
+                </tr>
+                <tr>
+                    <td>CS304</td>
+                    <td>Operating Systems</td>
+                    <td>Prof. Reddy</td>
+                    <td>4</td>
+                    <td>Sem 5</td>
+                </tr>
+                <tr>
+                    <td>CS305</td>
+                    <td>Computer Networks</td>
+                    <td>Prof. Gupta</td>
+                    <td>3</td>
+                    <td>Sem 5</td>
+                </tr>
+                <tr>
+                    <td>CS306</td>
+                    <td>Software Engineering</td>
+                    <td>Prof. Nair</td>
+                    <td>3</td>
+                    <td>Sem 5</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
-            <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+</main>
 
-  <script src="../js/main.js"></script>
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>

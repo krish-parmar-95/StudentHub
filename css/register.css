@@ -1,0 +1,256 @@
+/* ============================================================
+   StudentHub – register.css
+   Practical 5: Registration Form Styles
+   ============================================================ */
+
+/* ── FORM GROUPS ─────────────────────────────────────────── */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.required-star {
+    color: #e74c3c;
+    margin-left: 2px;
+}
+
+/* ── INPUTS – VALID / ERROR STATES ──────────────────────── */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #4a90d9;
+    box-shadow: 0 0 0 3px rgba(74,144,217,0.2);
+}
+
+/* green border on valid */
+.input-valid {
+    border-color: #27ae60 !important;
+    background-color: #f0fff4 !important;
+}
+html.dark-mode .input-valid {
+    background-color: #1a2e1a !important;
+}
+
+/* red border on error */
+.input-error {
+    border-color: #e74c3c !important;
+    background-color: #fff5f5 !important;
+}
+html.dark-mode .input-error {
+    background-color: #2e1a1a !important;
+}
+
+/* ── INLINE ERROR MESSAGE ────────────────────────────────── */
+.field-error {
+    display: block;
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 4px;
+    min-height: 16px;
+    font-weight: 600;
+}
+
+/* ── HINT TEXT ───────────────────────────────────────────── */
+.field-hint {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-top: 3px;
+}
+html.dark-mode .field-hint { color: #aaa; }
+
+/* ── RADIO GROUP ─────────────────────────────────────────── */
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+    width: auto;
+    accent-color: #4a90d9;
+    cursor: pointer;
+}
+
+/* ── PASSWORD TOGGLE WRAPPER ─────────────────────────────── */
+.input-toggle-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-toggle-wrap input {
+    flex: 1;
+    padding-right: 44px !important;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: none;
+    border: none;
+    border-left: 1px solid #ccc;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    transition: background 0.2s;
+}
+.toggle-password:hover { background: #f0f0f0; }
+html.dark-mode .toggle-password { color: #ccc; border-left-color: #555; }
+html.dark-mode .toggle-password:hover { background: #333; }
+
+/* ── PASSWORD STRENGTH METER ─────────────────────────────── */
+.strength-meter {
+    height: 6px;
+    background: #ddd;
+    border-radius: 3px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.strength-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 3px;
+    transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.strength-text {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: bold;
+    min-height: 16px;
+}
+
+/* ── CHECKBOX (Terms) ────────────────────────────────────── */
+.terms-group .checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.terms-group input[type="checkbox"] {
+    width: auto;
+    margin-top: 2px;
+    accent-color: #4a90d9;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* ── FORM BUTTONS ────────────────────────────────────────── */
+#submit-btn {
+    background-color: #27ae60;
+    margin-right: 10px;
+}
+#submit-btn:hover { background-color: #229954; }
+
+#reset-btn {
+    background-color: #888;
+}
+#reset-btn:hover { background-color: #666; }
+
+/* ── SUCCESS MESSAGE ─────────────────────────────────────── */
+.form-success {
+    background-color: #d5f5e3;
+    border: 1px solid #27ae60;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    color: #1e8449;
+    font-weight: bold;
+    font-size: 15px;
+}
+html.dark-mode .form-success {
+    background-color: #1a2e1a;
+    border-color: #27ae60;
+    color: #2ecc71;
+}
+
+/* ── FIELDSET ────────────────────────────────────────────── */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+html.dark-mode fieldset { border-color: #444; }
+
+legend {
+    font-weight: bold;
+    color: #4a90d9;
+    padding: 0 8px;
+    font-size: 15px;
+}
+
+/* ── SELECT DARK MODE ────────────────────────────────────── */
+html.dark-mode select {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+/* ── CANVAS CAPTCHA ─────────────────────────────────────────── */
+.captcha-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+#captcha-canvas {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+html.dark-mode #captcha-canvas {
+    border-color: #555;
+}
+
+#refresh-captcha {
+    background-color: #888;
+    padding: 8px 12px;
+    font-size: 13px;
+    margin: 0;
+}
+#refresh-captcha:hover {
+    background-color: #666;
+}

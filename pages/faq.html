@@ -1,166 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Find answers to commonly asked questions about StudentHub — registration, attendance, results, assignments, and more.">
-  <title>FAQ — StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudentHub - Frequently Asked Questions">
+    <title>FAQ - StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html" class="active">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
+
+<a href="#main-content">Skip to main content</a>
+
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="result.html">Results</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <strong><a href="faq.html">FAQ</a></strong> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
+
+<main id="main-content">
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+        <p>Click on a question to expand the answer.</p>
+
+        <!-- JS-powered FAQ Accordion (Practical 4) -->
+        <div class="faq-item">
+            <button class="faq-question">How do I register for courses?</button>
+            <div class="faq-answer">
+                <p>Visit the Courses page and click on the course you want to enroll in. Make sure you meet the prerequisites before enrolling.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How can I check my attendance?</button>
+            <div class="faq-answer">
+                <p>Go to the Attendance page from your dashboard to view course-wise attendance. A minimum of 75% is required.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">When are results published?</button>
+            <div class="faq-answer">
+                <p>Results are typically published within 2 weeks after the examination period ends. You will receive a notification on this portal.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I reset my password?</button>
+            <div class="faq-answer">
+                <p>Contact the admin office or use the "Forgot Password" link on the login page. A reset link will be sent to your registered email.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Can I change my enrolled courses?</button>
+            <div class="faq-answer">
+                <p>Yes, course changes are allowed within the first 2 weeks of the semester. Visit the Courses page to make changes.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I contact my professors?</button>
+            <div class="faq-answer">
+                <p>Visit the Courses page to find faculty contact details for each enrolled subject.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What is the minimum attendance requirement?</button>
+            <div class="faq-answer">
+                <p>A minimum of 75% attendance is required in each course to be eligible for examinations.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I submit assignments online?</button>
+            <div class="faq-answer">
+                <p>Go to the Assignments page and click "Submit" next to the assignment. You can upload a file or paste your answer directly.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Still have questions?</h3>
+        <p>Feel free to <a href="contact.html">contact us</a> and we will get back to you as soon as possible.</p>
+        <button onclick="openModal('contact-modal')">&#128172; Quick Contact</button>
+    </section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+
+<!-- Modal Popup (Practical 4) -->
+<div id="contact-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('contact-modal')" aria-label="Close modal">&times;</button>
+        <h2 id="contact-modal-title">Quick Contact</h2>
+        <p>For immediate help, reach us at:</p>
+        <ul>
+            <li>&#128231; support@studenthub.edu</li>
+            <li>&#128222; +91-98765-43210</li>
+            <li>&#128336; Mon–Fri, 9 AM – 5 PM</li>
         </ul>
-      </nav>
+        <button onclick="closeModal('contact-modal')">Close</button>
     </div>
-  </header>
+</div>
 
-  <section class="page-header">
-    <div class="container">
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li><a href="../index.html">Home</a></li>
-          <li aria-current="page">FAQ</li>
-        </ol>
-      </nav>
-      <h1>Frequently Asked Questions</h1>
-    </div>
-  </section>
-
-  <main id="main-content">
-    <div class="container">
-
-      <section class="faq-list" aria-label="Frequently asked questions">
-
-        <details class="faq-item">
-          <summary>How do I register for courses?</summary>
-          <div class="faq-answer">
-            <p>To register for courses, log in to your StudentHub dashboard and navigate to the "Courses" section. Click the "Browse Available Courses" button to view the course catalog for the current semester. Select the courses you want to enroll in and click "Register." Your academic advisor must approve the selection if you are enrolling in more than six courses. Registration is open from the first week of each semester until the add/drop deadline, which is typically two weeks after classes begin.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>How can I check my attendance?</summary>
-          <div class="faq-answer">
-            <p>Your attendance records are available under the "Attendance" section on your dashboard. You can view attendance for each individual course, see the percentage of classes attended, and identify any dates you were marked absent. Attendance is updated by your professors within 24 hours of each class session. If you believe there is an error in your attendance record, you can raise a dispute through the same page by clicking the "Report Discrepancy" button.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>When are results published?</summary>
-          <div class="faq-answer">
-            <p>Mid-semester examination results are typically published within two weeks of the last exam date, and end-semester results are released within four weeks. You will receive an email notification when your results are available. You can view your detailed results — including subject-wise marks, grades, and CGPA — on the "Results" page of your dashboard. If you wish to apply for re-evaluation, you must do so within seven days of the result publication date.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>How do I reset my password?</summary>
-          <div class="faq-answer">
-            <p>Click the "Forgot Password" link on the login page and enter the email address associated with your StudentHub account. You will receive a password reset link via email within a few minutes. Click the link and follow the instructions to set a new password. For security, the reset link expires after 30 minutes. If you do not receive the email, check your spam folder or contact the IT helpdesk at support@studenthub.edu.in for further assistance.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>Can I change my enrolled courses?</summary>
-          <div class="faq-answer">
-            <p>Yes, you can add or drop courses during the add/drop period, which is the first two weeks of each semester. Go to the "Courses" section on your dashboard, select the course you wish to drop, and click "Drop Course." To add a new course, browse the catalog and register for an available section. After the add/drop deadline, changes require written approval from your department head and may result in a "W" (Withdrawal) grade on your transcript.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>How do I contact my professors?</summary>
-          <div class="faq-answer">
-            <p>You can find your professors' contact details on each course page under the "Instructor" section, which lists their email address and office hours. You can also send them a message directly through the StudentHub messaging system by clicking "Message Instructor" on the course page. For urgent academic matters, we recommend visiting during their posted office hours or sending an email with your student ID and course code in the subject line.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>What is the minimum attendance requirement?</summary>
-          <div class="faq-answer">
-            <p>The university requires a minimum of 75% attendance in each course to be eligible to sit for the end-semester examinations. Students falling below 75% will receive a warning notification when attendance drops below 80%. If your attendance falls below the required threshold due to medical or other valid reasons, you may apply for an attendance waiver through the "Attendance" section by submitting supporting documents. The final decision on waivers rests with the Dean of Student Affairs.</p>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary>How do I submit assignments online?</summary>
-          <div class="faq-answer">
-            <p>Navigate to the "Assignments" section on your dashboard, where you will see a list of all pending and past assignments. Click on the assignment you want to submit, then upload your file using the "Upload Submission" button. Accepted file formats include PDF, DOCX, and ZIP (for code projects), with a maximum file size of 25 MB. Make sure to submit before the deadline — late submissions may incur a penalty as specified by your instructor. You will receive a confirmation email once your submission is successfully recorded.</p>
-          </div>
-        </details>
-
-      </section>
-
-      <section class="faq-cta" aria-label="Still have questions">
-        <h2>Still have questions?</h2>
-        <p>If you could not find the answer you were looking for, feel free to reach out to us directly. Our support team is happy to help.</p>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
-      </section>
-
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
-            <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="../js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

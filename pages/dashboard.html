@@ -1,216 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Access your StudentHub dashboard to view academic progress and manage coursework.">
-  <title>Student Dashboard — StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudentHub Dashboard — View your academic summary, upcoming deadlines, and quick links.">
+    <title>Dashboard — StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html" class="active" aria-current="page">Dashboard</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<a href="#main-content">Skip to main content</a>
 
-  <section class="page-header">
-    <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-        </ol>
-      </nav>
-      <h1>Student Dashboard</h1>
-      <p>Welcome back, Arjun! Here's an overview of your academic progress this semester.</p>
-    </div>
-  </section>
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <strong><a href="dashboard.html">Dashboard</a></strong> |
+        <a href="courses.html">Courses</a> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="result.html">Results</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
 
-  <main id="main-content">
-    <section class="section">
-      <div class="container">
+<main id="main-content">
 
-        <!-- Stat Cards -->
-        <div class="admin-stats">
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-purple" aria-hidden="true">📚</span>
-            <div class="stat-info">
-              <h2 class="stat-number">6</h2>
-              <p class="stat-label">Enrolled Courses</p>
-            </div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-blue" aria-hidden="true">📝</span>
-            <div class="stat-info">
-              <h2 class="stat-number">3</h2>
-              <p class="stat-label">Pending Assignments</p>
-            </div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-green" aria-hidden="true">📊</span>
-            <div class="stat-info">
-              <h2 class="stat-number">92%</h2>
-              <p class="stat-label">Attendance Rate</p>
-            </div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-orange" aria-hidden="true">🏆</span>
-            <div class="stat-info">
-              <h2 class="stat-number">8.7</h2>
-              <p class="stat-label">Current GPA</p>
-            </div>
-          </article>
-        </div>
-
-        <!-- Upcoming Deadlines -->
-        <section aria-labelledby="deadlines-heading">
-          <h2 id="deadlines-heading">Upcoming Deadlines</h2>
-          <div class="table-wrapper">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th scope="col">Assignment</th>
-                  <th scope="col">Course</th>
-                  <th scope="col">Due Date</th>
-                  <th scope="col">Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Binary Search Tree Implementation</td>
-                  <td>Data Structures &amp; Algorithms</td>
-                  <td>July 18, 2026</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>Responsive Portfolio Website</td>
-                  <td>Web Development Fundamentals</td>
-                  <td>July 20, 2026</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
-                </tr>
-                <tr>
-                  <td>ER Diagram for Library System</td>
-                  <td>Database Management Systems</td>
-                  <td>July 22, 2026</td>
-                  <td><span class="badge badge-info">In Progress</span></td>
-                </tr>
-                <tr>
-                  <td>Process Scheduling Simulation</td>
-                  <td>Operating Systems</td>
-                  <td>July 25, 2026</td>
-                  <td><span class="badge badge-warning">Pending</span></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <!-- Quick Links -->
-        <section aria-labelledby="quicklinks-heading">
-          <h2 id="quicklinks-heading">Quick Links</h2>
-          <div class="cards-grid-3">
-            <a href="courses.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">📚</span>
-              <h3>Courses</h3>
-              <p>Browse and manage your enrolled courses</p>
-            </a>
-            <a href="assignment.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">📝</span>
-              <h3>Assignments</h3>
-              <p>View and submit your pending assignments</p>
-            </a>
-            <a href="attendance.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">📊</span>
-              <h3>Attendance</h3>
-              <p>Check your attendance records by course</p>
-            </a>
-            <a href="result.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">🏆</span>
-              <h3>Results</h3>
-              <p>View semester grades and overall GPA</p>
-            </a>
-            <a href="events.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">📅</span>
-              <h3>Events</h3>
-              <p>Stay updated on campus events and activities</p>
-            </a>
-            <a href="profile.html" class="link-card">
-              <span class="link-card-icon" aria-hidden="true">👤</span>
-              <h3>Profile</h3>
-              <p>Update your personal information and settings</p>
-            </a>
-          </div>
-        </section>
-
-      </div>
+    <section>
+        <h2>Student Dashboard</h2>
+        <p>Welcome, Arjun Patel!</p>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+    <hr>
+
+    <section>
+        <h3>Academic Summary</h3>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Enrolled Courses</th>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>Pending Assignments</th>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Attendance</th>
+                <td>92%</td>
+            </tr>
+            <tr>
+                <th>CGPA</th>
+                <td>8.5</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Upcoming Deadlines</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Assignment</th>
+                    <th>Course</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Binary Search Tree Implementation</td>
+                    <td>CS301 Data Structures &amp; Algorithms</td>
+                    <td>2026-07-22</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Responsive Portfolio Website</td>
+                    <td>CS302 Web Development</td>
+                    <td>2026-07-25</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>ER Diagram for Library System</td>
+                    <td>CS303 Database Management</td>
+                    <td>2026-07-28</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Process Scheduling Simulation</td>
+                    <td>CS304 Operating Systems</td>
+                    <td>2026-08-01</td>
+                    <td>Not Started</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Quick Links</h3>
+        <ul>
             <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
             <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+            <li><a href="result.html">Results</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </section>
 
-  <script src="../js/main.js"></script>
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>

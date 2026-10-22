@@ -1,90 +1,160 @@
 /* ============================================================
-   StudentHub — Main JavaScript
+   StudentHub – Practical 4: JavaScript DOM Manipulation,
+   Event Handling & UI Interactivity
+   Skills: DOM selection, event handling, class manipulation,
+           localStorage, basic animation
    ============================================================ */
 
-document.addEventListener('DOMContentLoaded', () => {
-  // ---- Mobile Navigation Toggle ----
-  const navToggle = document.querySelector('.nav-toggle');
-  const mainNav = document.querySelector('.main-nav');
+/* ── 1. THEME SWITCHER (localStorage) ─────────────────────── */
+(function initTheme() {
+  const saved = localStorage.getItem('sh-theme');
+  if (saved === 'dark') document.documentElement.classList.add('dark-mode');
+})();
 
-  if (navToggle && mainNav) {
-    navToggle.addEventListener('click', () => {
-      const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', !isExpanded);
-      mainNav.classList.toggle('active');
-    });
+function toggleTheme() {
+  const root = document.documentElement;
+  root.classList.toggle('dark-mode');
+  const isDark = root.classList.contains('dark-mode');
+  localStorage.setItem('sh-theme', isDark ? 'dark' : 'light');
+  const btn = document.getElementById('theme-btn');
+  if (btn) btn.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+}
 
-    // Close nav when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!navToggle.contains(e.target) && !mainNav.contains(e.target)) {
-        navToggle.setAttribute('aria-expanded', 'false');
-        mainNav.classList.remove('active');
+/* ── 2. HAMBURGER MENU ─────────────────────────────────────── */
+function toggleMenu() {
+  const nav = document.getElementById('main-nav');
+  if (!nav) return;
+  nav.classList.toggle('nav-open');
+  const btn = document.getElementById('hamburger-btn');
+  if (btn) btn.setAttribute('aria-expanded', nav.classList.contains('nav-open'));
+}
+
+/* ── 3. NOTIFICATION BANNER ────────────────────────────────── */
+function showNotification(message, type = 'info') {
+  let banner = document.getElementById('notification-banner');
+  if (!banner) {
+    banner = document.createElement('div');
+    banner.id = 'notification-banner';
+    document.body.prepend(banner);
+  }
+  banner.textContent = message;
+  banner.className = 'notification ' + type;
+  banner.style.display = 'block';
+  clearTimeout(banner._timer);
+  banner._timer = setTimeout(() => {
+    banner.style.opacity = '0';
+    setTimeout(() => { banner.style.display = 'none'; banner.style.opacity = '1'; }, 500);
+  }, 3500);
+}
+
+/* ── 4. COLLAPSIBLE FAQ (JS-powered accordion) ─────────────── */
+function initFAQ() {
+  const items = document.querySelectorAll('.faq-item');
+  items.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer   = item.querySelector('.faq-answer');
+    if (!question || !answer) return;
+
+    question.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      // close all
+      items.forEach(i => {
+        i.classList.remove('open');
+        const a = i.querySelector('.faq-answer');
+        if (a) a.style.maxHeight = null;
+      });
+      // open clicked 
+      if (!isOpen) {
+        item.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
       }
     });
+  });
+}
 
-    // Close nav on Escape key
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && mainNav.classList.contains('active')) {
-        navToggle.setAttribute('aria-expanded', 'false');
-        mainNav.classList.remove('active');
-        navToggle.focus();
-      }
+/* ── 5. MODAL POPUP ────────────────────────────────────────── */
+function openModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (!modal) return;
+  modal.classList.add('modal-active');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  // trap focus on close button
+  const closeBtn = modal.querySelector('.modal-close');
+  if (closeBtn) closeBtn.focus();
+}
+
+function closeModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (!modal) return;
+  modal.classList.remove('modal-active');
+  modal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+// close on backdrop click or Escape key
+document.addEventListener('click', e => {
+  if (e.target.classList.contains('modal-overlay')) {
+    closeModal(e.target.id);
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.modal-overlay.modal-active').forEach(m => closeModal(m.id));
+  }
+});
+
+
+/* ── 6. IMAGE / CONTENT SLIDER ─────────────────────────────── */
+function initSlider(sliderId) {
+  const slider = document.getElementById(sliderId);
+  if (!slider) return;
+
+  const slides = slider.querySelectorAll('.slide');
+  let current = 0;
+
+  function showSlide(index) {
+    slides.forEach((s, i) => s.classList.toggle('slide-active', i === index));
+    const dots = slider.querySelectorAll('.slider-dot');
+    dots.forEach((d, i) => d.classList.toggle('dot-active', i === index));
+  }
+
+  // prev / next buttons
+  const prevBtn = slider.querySelector('.slider-prev');
+  const nextBtn = slider.querySelector('.slider-next');
+  if (prevBtn) prevBtn.addEventListener('click', () => { current = (current - 1 + slides.length) % slides.length; showSlide(current); });
+  if (nextBtn) nextBtn.addEventListener('click', () => { current = (current + 1) % slides.length; showSlide(current); });
+
+  // dot navigation
+  const dotsWrap = slider.querySelector('.slider-dots');
+  if (dotsWrap) {
+    slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 'slider-dot';
+      dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      dot.addEventListener('click', () => { current = i; showSlide(current); });
+      dotsWrap.appendChild(dot);
     });
   }
 
-  // ---- Active Page Highlighting ----
-  const currentPath = window.location.pathname;
-  const navLinks = document.querySelectorAll('.main-nav .nav-list a, .sidebar-nav a');
+  // auto-play every 4 s
+  setInterval(() => { current = (current + 1) % slides.length; showSlide(current); }, 4000);
 
-  navLinks.forEach(link => {
-    const linkPath = link.getAttribute('href');
-    if (linkPath && currentPath.endsWith(linkPath.replace(/^\.\.\//, '').replace(/^\.\//, ''))) {
-      link.classList.add('active');
-    }
-  });
+  showSlide(0);
+}
 
-  // ---- Scroll Animations (Intersection Observer) ----
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  };
+/* ── 7. INIT ON DOM READY ──────────────────────────────────── */
+document.addEventListener('DOMContentLoaded', () => {
+  initFAQ();
+  initSlider('feature-slider');
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-in-up');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
+  // set theme button label on load
+  const themeBtn = document.getElementById('theme-btn');
+  if (themeBtn) {
+    const isDark = document.documentElement.classList.contains('dark-mode');
+    themeBtn.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+  }
 
-  document.querySelectorAll('.card, .stat-card, .event-card, .faq-item').forEach(el => {
-    el.style.opacity = '0';
-    observer.observe(el);
-  });
-
-  // ---- Card Mouse Glow Effect ----
-  document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      card.style.setProperty('--mouse-x', x + '%');
-      card.style.setProperty('--mouse-y', y + '%');
-    });
-  });
-
-  // ---- Smooth Scroll for Anchor Links ----
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', (e) => {
-      const targetId = anchor.getAttribute('href');
-      if (targetId === '#') return;
-      
-      const target = document.querySelector(targetId);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
+  // welcome notification
+  showNotification('👋 Welcome to StudentHub! Practical 4 – JS Interactivity is live.', 'info');
 });

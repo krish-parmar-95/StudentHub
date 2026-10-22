@@ -1,154 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="View and manage your StudentHub profile — personal details, academic information, and account settings.">
-  <title>My Profile — StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudentHub - Student Profile Page">
+    <title>Profile - StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section class="page-header">
-    <div class="container">
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li aria-current="page">Profile</li>
-        </ol>
-      </nav>
-      <h1>My Profile</h1>
-    </div>
-  </section>
+<a href="#main-content">Skip to main content</a>
 
-  <main id="main-content">
-    <div class="container">
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="result.html">Results</a> |
+        <a href="events.html">Events</a> |
+        <strong><a href="profile.html">Profile</a></strong> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
 
-      <section class="profile-header" aria-label="Profile overview">
-        <div class="profile-avatar" aria-hidden="true">RS</div>
-        <div class="profile-info">
-          <h2>Rahul Sharma</h2>
-          <p>Computer Science — Semester 5</p>
-        </div>
-      </section>
+<main id="main-content">
 
-      <section class="glass-panel" aria-labelledby="personal-info-heading">
-        <h2 id="personal-info-heading">Personal Information</h2>
-        <dl class="info-list">
-          <dt>Full Name</dt>
-          <dd>Rahul Sharma</dd>
+    <section>
+        <h2>My Profile</h2>
 
-          <dt>Email</dt>
-          <dd>rahul.sharma@studenthub.edu.in</dd>
+        <h3>Personal Information</h3>
+        <dl>
+            <dt>Full Name</dt>
+            <dd>Rahul Sharma</dd>
 
-          <dt>Phone</dt>
-          <dd>+91 98765 43210</dd>
+            <dt>Email</dt>
+            <dd>rahul.sharma@student.edu.in</dd>
 
-          <dt>Date of Birth</dt>
-          <dd>15 March 2005</dd>
+            <dt>Phone</dt>
+            <dd>+91 98765 43210</dd>
 
-          <dt>Address</dt>
-          <dd>42, Andheri West, Mumbai, Maharashtra 400058</dd>
+            <dt>Date of Birth</dt>
+            <dd>15 March 2005</dd>
+
+            <dt>Address</dt>
+            <dd>42 MG Road, Mumbai, Maharashtra</dd>
         </dl>
-      </section>
 
-      <section class="glass-panel" aria-labelledby="academic-info-heading">
-        <h2 id="academic-info-heading">Academic Information</h2>
-        <dl class="info-list">
-          <dt>Student ID</dt>
-          <dd>STU-2024-0847</dd>
+        <hr>
 
-          <dt>Department</dt>
-          <dd>Computer Science and Engineering</dd>
+        <h3>Academic Information</h3>
+        <dl>
+            <dt>Student ID</dt>
+            <dd>STU2024001</dd>
 
-          <dt>Semester</dt>
-          <dd>5th Semester</dd>
+            <dt>Department</dt>
+            <dd>Computer Science</dd>
 
-          <dt>Enrollment Year</dt>
-          <dd>2024</dd>
+            <dt>Semester</dt>
+            <dd>5</dd>
 
-          <dt>CGPA</dt>
-          <dd>8.72 / 10.00</dd>
+            <dt>Enrollment Year</dt>
+            <dd>2024</dd>
+
+            <dt>CGPA</dt>
+            <dd>8.5</dd>
         </dl>
-      </section>
 
-      <section class="profile-actions" aria-label="Profile actions">
-        <button class="btn btn-primary">Edit Profile</button>
-        <button class="btn btn-secondary">Change Password</button>
-      </section>
+        <hr>
 
-    </div>
-  </main>
+        <p>
+            <a href="#">Edit Profile</a> |
+            <a href="#">Change Password</a>
+        </p>
+    </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
-            <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+</main>
 
-  <script src="../js/main.js"></script>
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>

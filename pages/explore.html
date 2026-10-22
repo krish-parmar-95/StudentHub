@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore StudentHub data - events, students, and FAQs loaded dynamically using Fetch API.">
+    <title>Data Explorer - StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .tab-btn {
+            padding: 8px 16px;
+            margin-right: 5px;
+            cursor: pointer;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        .active-tab {
+            background-color: #4a90d9;
+            color: white;
+            border-color: #4a90d9;
+        }
+        #controls {
+            margin: 15px 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #controls input, #controls select {
+            padding: 6px;
+            font-size: 14px;
+        }
+        #pagination {
+            margin-top: 15px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        #pagination button {
+            padding: 6px 12px;
+            margin: 0;
+        }
+        .page-info {
+            font-size: 14px;
+            color: #555;
+        }
+        .loading-text {
+            color: #888;
+            font-style: italic;
+        }
+        .error-text {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+        <h1>&#127891; StudentHub</h1>
+        <p>Student Academic Portal</p>
+        <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+        <nav id="main-nav" aria-label="Main navigation">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="dashboard.html">Dashboard</a> |
+            <a href="courses.html">Courses</a> |
+            <a href="assignment.html">Assignments</a> |
+            <a href="attendance.html">Attendance</a> |
+            <a href="result.html">Results</a> |
+            <a href="events.html">Events</a> |
+            <a href="profile.html">Profile</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="feedback.html">Feedback</a> |
+            <a href="admin.html">Admin</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a>
+        </nav>
+        <button id="theme-btn" onclick="toggleTheme()">Dark Mode</button>
+        <hr>
+    </header>
+
+    <main id="main-content">
+        <section>
+            <h2>Data Explorer</h2>
+            <p>Browse events, students, and FAQs. Data is loaded dynamically from JSON files using Fetch API.</p>
+
+            <!-- Tab Buttons -->
+            <div id="tab-buttons">
+                <button onclick="switchTab('events')" id="tab-events" class="tab-btn active-tab">&#128197; Events</button>
+                <button onclick="switchTab('students')" id="tab-students" class="tab-btn">&#128100; Students</button>
+                <button onclick="switchTab('faqs')" id="tab-faqs" class="tab-btn">&#10067; FAQs</button>
+            </div>
+
+            <hr>
+
+            <!-- Controls -->
+            <div id="controls">
+                <label for="search-input">Search:</label>
+                <input type="text" id="search-input" placeholder="Type to search..." oninput="applyFilters()">
+
+                <label for="filter-select">Filter:</label>
+                <select id="filter-select" onchange="applyFilters()">
+                    <option value="">All</option>
+                </select>
+
+                <label for="sort-select">Sort:</label>
+                <select id="sort-select" onchange="applyFilters()">
+                    <option value="">Default</option>
+                </select>
+            </div>
+
+            <!-- Data Display -->
+            <div id="data-display">
+                <p class="loading-text">Loading data...</p>
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination"></div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+        <p>
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="faq.html">FAQ</a>
+        </p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/fetchdata.js"></script>
+</body>
+</html>

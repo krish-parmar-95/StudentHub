@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@studenthub.edu",
+    "department": "Computer Science",
+    "semester": 5,
+    "cgpa": 8.7,
+    "city": "Mumbai"
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "email": "priya.patel@studenthub.edu",
+    "department": "Information Technology",
+    "semester": 3,
+    "cgpa": 9.1,
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@studenthub.edu",
+    "department": "Electronics",
+    "semester": 7,
+    "cgpa": 7.4,
+    "city": "Pune"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Iyer",
+    "email": "sneha.iyer@studenthub.edu",
+    "department": "Computer Science",
+    "semester": 5,
+    "cgpa": 9.3,
+    "city": "Chennai"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "email": "vikram.singh@studenthub.edu",
+    "department": "Mechanical",
+    "semester": 6,
+    "cgpa": 7.8,
+    "city": "Jaipur"
+  },
+  {
+    "id": 6,
+    "name": "Ananya Desai",
+    "email": "ananya.desai@studenthub.edu",
+    "department": "Civil",
+    "semester": 4,
+    "cgpa": 8.2,
+    "city": "Bangalore"
+  },
+  {
+    "id": 7,
+    "name": "Arjun Reddy",
+    "email": "arjun.reddy@studenthub.edu",
+    "department": "Electronics",
+    "semester": 8,
+    "cgpa": 6.9,
+    "city": "Hyderabad"
+  },
+  {
+    "id": 8,
+    "name": "Kavya Nair",
+    "email": "kavya.nair@studenthub.edu",
+    "department": "Information Technology",
+    "semester": 2,
+    "cgpa": 9.0,
+    "city": "Kochi"
+  },
+  {
+    "id": 9,
+    "name": "Rahul Gupta",
+    "email": "rahul.gupta@studenthub.edu",
+    "department": "Computer Science",
+    "semester": 6,
+    "cgpa": 8.5,
+    "city": "Delhi"
+  },
+  {
+    "id": 10,
+    "name": "Ishita Banerjee",
+    "email": "ishita.banerjee@studenthub.edu",
+    "department": "Civil",
+    "semester": 3,
+    "cgpa": 7.6,
+    "city": "Kolkata"
+  },
+  {
+    "id": 11,
+    "name": "Aditya Joshi",
+    "email": "aditya.joshi@studenthub.edu",
+    "department": "Mechanical",
+    "semester": 7,
+    "cgpa": 6.3,
+    "city": "Nagpur"
+  },
+  {
+    "id": 12,
+    "name": "Meera Krishnan",
+    "email": "meera.krishnan@studenthub.edu",
+    "department": "Electronics",
+    "semester": 5,
+    "cgpa": 9.5,
+    "city": "Coimbatore"
+  },
+  {
+    "id": 13,
+    "name": "Siddharth Verma",
+    "email": "siddharth.verma@studenthub.edu",
+    "department": "Information Technology",
+    "semester": 1,
+    "cgpa": 8.0,
+    "city": "Lucknow"
+  },
+  {
+    "id": 14,
+    "name": "Tanvi Choudhary",
+    "email": "tanvi.choudhary@studenthub.edu",
+    "department": "Computer Science",
+    "semester": 4,
+    "cgpa": 9.8,
+    "city": "Indore"
+  },
+  {
+    "id": 15,
+    "name": "Kunal Das",
+    "email": "kunal.das@studenthub.edu",
+    "department": "Mechanical",
+    "semester": 8,
+    "cgpa": 7.1,
+    "city": "Bhopal"
+  }
+]

@@ -1,0 +1,1074 @@
+<mxfile host="app.diagrams.net" modified="2026-07-30T09:15:00.000Z" agent="Antigravity" version="24.0.0" type="device">
+
+  <!-- ========== PAGE 1: HOME ========== -->
+  <diagram id="home" name="01 - Home Page">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Browser outline -->
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="1040" as="geometry"/>
+        </mxCell>
+
+        <!-- Header box -->
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="StudentHub" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="45" width="120" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav bar -->
+        <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="720" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Home  |  About  |  Dashboard  |  Courses  |  Assignments  |  Attendance  |  Results  |  Events  |  Profile  |  Contact  |  FAQ  |  Login  |  Register" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="700" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Hero Section -->
+        <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="680" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="HERO SECTION" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="330" y="145" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Welcome to StudentHub" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="165" width="400" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Your all-in-one academic companion" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="195" width="360" height="20" as="geometry"/>
+        </mxCell>
+        <!-- CTA buttons -->
+        <mxCell id="12" value="[ Get Started ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="[ Login ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="120" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Key Features heading -->
+        <mxCell id="14" value="Key Features" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="200" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="345" width="680" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Feature boxes row 1 -->
+        <mxCell id="16" value="Course&#xa;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Assignment&#xa;Tracker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Attendance&#xa;Monitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Feature boxes row 2 -->
+        <mxCell id="19" value="Results &amp;&#xa;Grades" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Campus&#xa;Events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="435" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="Student&#xa;Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="435" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Statistics heading -->
+        <mxCell id="22" value="Quick Statistics" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="200" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="545" width="680" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Stats table -->
+        <mxCell id="24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="560" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Header row -->
+        <mxCell id="25" value="Students" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="Courses" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="Faculty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="Satisfaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <!-- Data row -->
+        <mxCell id="29" value="10,000+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="595" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="500+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="260" y="595" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="50+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="595" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="98%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="540" y="595" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Quick Links -->
+        <mxCell id="33" value="Quick Links" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="200" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="685" width="680" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="- Go to Dashboard&#xa;- Browse Courses&#xa;- Upcoming Events&#xa;- Contact Us&#xa;- FAQ" style="text;html=1;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="695" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="37" value="FOOTER — © 2026 StudentHub  |  Home  |  About  |  Contact  |  FAQ" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="100" y="805" width="600" height="40" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 2: LOGIN ========== -->
+  <diagram id="login" name="02 - Login Page">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Page outline -->
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="820" as="geometry"/>
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Login form box -->
+        <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="400" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Login to Your Account" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135" width="280" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Email label + input -->
+        <mxCell id="6" value="Email Address:" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="185" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="205" width="340" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Password label + input -->
+        <mxCell id="8" value="Password:" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="255" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="********" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="275" width="340" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Remember me checkbox -->
+        <mxCell id="10" value="[ ] Remember Me" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Sign In button -->
+        <mxCell id="11" value="[ Sign In ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="340" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Divider -->
+        <mxCell id="12" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="415" width="340" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Links -->
+        <mxCell id="13" value="Forgot password? Contact admin." style="text;html=1;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Don't have an account? Register here" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="280" y="455" width="240" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="15" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 3: REGISTER ========== -->
+  <diagram id="register" name="03 - Register Page">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="930" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="Create a New Account" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="280" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Fieldset border -->
+        <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="440" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Personal Information" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="135" width="160" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Full Name -->
+        <mxCell id="7" value="Full Name: *" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Email -->
+        <mxCell id="9" value="Email: *" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Student ID -->
+        <mxCell id="11" value="Student ID: *" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Phone -->
+        <mxCell id="13" value="Phone:" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Password -->
+        <mxCell id="15" value="Password: *" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="********" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Confirm Password -->
+        <mxCell id="17" value="Confirm Password: *" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="********" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Terms -->
+        <mxCell id="19" value="[ ] I agree to the Terms and Conditions" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="535" width="300" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Submit -->
+        <mxCell id="20" value="[ Create Account ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="575" width="380" height="35" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="21" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="380" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Already have an account? Login here" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="645" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="23" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 4: DASHBOARD ========== -->
+  <diagram id="dashboard" name="04 - Dashboard">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="820" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="Student Dashboard — Welcome, Arjun Patel!" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="400" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- 4 stat boxes -->
+        <mxCell id="5" value="Academic Summary" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Enrolled Courses&#xa;6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="155" width="165" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Pending Assignments&#xa;3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="155" width="165" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Attendance&#xa;92%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="155" width="165" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="CGPA&#xa;8.5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="155" width="150" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Upcoming Deadlines -->
+        <mxCell id="10" value="Upcoming Deadlines" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Table header -->
+        <mxCell id="11" value="Assignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="230" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Course" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Due Date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 1 -->
+        <mxCell id="15" value="BST Implementation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="288" width="230" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="CS301 DSA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="288" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="2026-07-22" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="490" y="288" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="610" y="288" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 2 -->
+        <mxCell id="19" value="Portfolio Website" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="316" width="230" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="CS302 Web Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="316" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="2026-07-25" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="490" y="316" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="610" y="316" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 3 -->
+        <mxCell id="23" value="ER Diagram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="344" width="230" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="CS303 DBMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="344" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="2026-07-28" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="490" y="344" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="Pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="610" y="344" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 4 -->
+        <mxCell id="27" value="Process Scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="372" width="230" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="CS304 OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="372" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="2026-08-01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="490" y="372" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="Not Started" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="610" y="372" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Quick Links -->
+        <mxCell id="31" value="Quick Links" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="- Courses  - Assignments  - Attendance  - Results  - Events  - Profile" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="445" width="500" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="33" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 5: COURSES ========== -->
+  <diagram id="courses" name="05 - Courses">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Course Catalog" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="200" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Browse the courses available this semester." style="text;html=1;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="300" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Table -->
+        <mxCell id="6" value="Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="155" width="80" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Course Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="155" width="240" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Faculty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="155" width="150" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Credits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="155" width="80" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Semester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="155" width="140" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- 6 data rows -->
+        <mxCell id="11" value="CS301" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="183" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="12" value="Data Structures &amp; Algorithms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="183" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="13" value="Prof. Sharma" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="183" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="14" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="183" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="15" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="183" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="16" value="CS302" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="211" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="17" value="Web Development" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="211" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="18" value="Prof. Iyer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="211" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="19" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="211" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="20" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="211" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="21" value="CS303" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="239" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="22" value="Database Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="239" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="23" value="Prof. Kulkarni" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="239" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="24" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="239" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="25" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="239" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="26" value="CS304" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="267" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="27" value="Operating Systems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="267" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="28" value="Prof. Reddy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="267" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="29" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="267" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="30" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="267" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="31" value="CS305" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="295" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="32" value="Computer Networks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="295" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="33" value="Prof. Gupta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="295" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="34" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="295" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="35" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="295" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="36" value="CS306" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="60" y="323" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="37" value="Software Engineering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="140" y="323" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="38" value="Prof. Nair" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="380" y="323" width="150" height="28" as="geometry"/></mxCell>
+        <mxCell id="39" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="530" y="323" width="80" height="28" as="geometry"/></mxCell>
+        <mxCell id="40" value="Sem 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1"><mxGeometry x="610" y="323" width="140" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="41" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 6: ASSIGNMENTS ========== -->
+  <diagram id="assignments" name="06 - Assignments">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="520" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="My Assignments" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="200" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Table: #, Assignment, Course, Due Date, Status, Marks -->
+        <mxCell id="5" value="#" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="60" y="135" width="30" height="28" as="geometry"/></mxCell>
+        <mxCell id="6" value="Assignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="90" y="135" width="190" height="28" as="geometry"/></mxCell>
+        <mxCell id="7" value="Course" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="280" y="135" width="170" height="28" as="geometry"/></mxCell>
+        <mxCell id="8" value="Due Date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="450" y="135" width="100" height="28" as="geometry"/></mxCell>
+        <mxCell id="9" value="Status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="550" y="135" width="100" height="28" as="geometry"/></mxCell>
+        <mxCell id="10" value="Marks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="650" y="135" width="100" height="28" as="geometry"/></mxCell>
+
+        <!-- 6 rows placeholder -->
+        <mxCell id="11" value="1  |  BST Implementation  |  CS301  |  Jul 15  |  Graded  |  18/20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="163" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="12" value="2  |  Portfolio Website  |  CS302  |  Jul 18  |  Submitted  |  —" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="188" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="13" value="3  |  ER Diagram  |  CS303  |  Jul 22  |  Pending  |  —" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="213" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="14" value="4  |  Process Scheduling  |  CS304  |  Jul 25  |  Pending  |  —" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="238" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="15" value="5  |  Network Protocols  |  CS305  |  Jul 20  |  Overdue  |  —" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="263" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="16" value="6  |  UML Diagrams  |  CS306  |  Jul 28  |  Graded  |  16/20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="288" width="690" height="25" as="geometry"/></mxCell>
+
+        <mxCell id="17" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 7: ATTENDANCE ========== -->
+  <diagram id="attendance" name="07 - Attendance">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Attendance Record" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="200" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Overall Summary -->
+        <mxCell id="5" value="Overall Summary" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Total: 120" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="155" width="165" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Attended: 110" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="155" width="165" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Absent: 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="155" width="165" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Percentage: 92%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="155" width="150" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Course-wise table -->
+        <mxCell id="10" value="Course-wise Attendance" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Course" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="60" y="250" width="240" height="28" as="geometry"/></mxCell>
+        <mxCell id="12" value="Total" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="250" width="100" height="28" as="geometry"/></mxCell>
+        <mxCell id="13" value="Present" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="250" width="100" height="28" as="geometry"/></mxCell>
+        <mxCell id="14" value="Absent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="500" y="250" width="100" height="28" as="geometry"/></mxCell>
+        <mxCell id="15" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="600" y="250" width="150" height="28" as="geometry"/></mxCell>
+
+        <!-- 6 rows -->
+        <mxCell id="16" value="CS301 DSA  |  20  |  19  |  1  |  95%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="278" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="17" value="CS302 Web Dev  |  20  |  18  |  2  |  90%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="303" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="18" value="CS303 DBMS  |  20  |  20  |  0  |  100%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="328" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="19" value="CS304 OS  |  20  |  17  |  3  |  85%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="353" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="20" value="CS305 Networks  |  20  |  18  |  2  |  90%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="378" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="21" value="CS306 SE  |  20  |  18  |  2  |  90%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="403" width="690" height="25" as="geometry"/></mxCell>
+
+        <mxCell id="22" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 8: RESULTS ========== -->
+  <diagram id="results" name="08 - Results">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="650" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Academic Results — Semester 5" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="350" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Summary boxes -->
+        <mxCell id="5" value="SGPA: 8.7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="210" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="CGPA: 8.5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="210" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Credits: 42" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="230" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Subject-wise -->
+        <mxCell id="8" value="Subject-wise Results" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="195" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Code  |  Course Name  |  Credits  |  Grade  |  Grade Points" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="225" width="690" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="CS301  |  Data Structures  |  4  |  A  |  36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="253" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="11" value="CS302  |  Web Development  |  3  |  A+  |  30" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="278" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="12" value="CS303  |  Database Mgmt  |  4  |  A  |  36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="303" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="13" value="CS304 / CS305 / CS306  [more rows...]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="328" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="14" value="SGPA: 8.7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="60" y="353" width="690" height="28" as="geometry"/></mxCell>
+
+        <mxCell id="15" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 9: EVENTS ========== -->
+  <diagram id="events" name="09 - Events">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="520" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Campus Events" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="200" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="Date  |  Event Name  |  Type  |  Venue  |  Time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="60" y="135" width="690" height="28" as="geometry"/></mxCell>
+        <mxCell id="6" value="25 Jul  |  Annual Tech Fest  |  Technical  |  Main Auditorium  |  10:00 AM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="163" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="7" value="02 Aug  |  Coding Hackathon  |  Technical  |  CS Lab  |  9:00 AM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="188" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="8" value="10 Aug  |  Cultural Night  |  Cultural  |  Amphitheatre  |  6:00 PM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="213" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="9" value="18 Aug  |  Sports Day  |  Sports  |  University Ground  |  8:00 AM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="238" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="10" value="25 Aug  |  AI Workshop  |  Workshop  |  Seminar Hall  |  2:00 PM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="263" width="690" height="25" as="geometry"/></mxCell>
+        <mxCell id="11" value="01 Sep  |  Cybersecurity Lecture  |  Academic  |  Lecture Hall 1  |  11 AM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="288" width="690" height="25" as="geometry"/></mxCell>
+
+        <mxCell id="12" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 10: PROFILE ========== -->
+  <diagram id="profile" name="10 - Profile">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="My Profile" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="150" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Personal Info box -->
+        <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="330" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Personal Information" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="135" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Name: Rahul Sharma&#xa;Email: rahul.sharma@student.edu.in&#xa;Phone: +91 98765 43210&#xa;DOB: 15 March 2005&#xa;Address: 42 MG Road, Mumbai" style="text;html=1;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="300" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Academic Info box -->
+        <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="330" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Academic Information" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="135" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Student ID: STU2024001&#xa;Department: Computer Science&#xa;Semester: 5&#xa;Enrollment Year: 2024&#xa;CGPA: 8.5" style="text;html=1;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="300" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Action buttons -->
+        <mxCell id="11" value="[ Edit Profile ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="355" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="[ Change Password ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="355" width="150" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 11: CONTACT ========== -->
+  <diagram id="contact" name="11 - Contact">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Contact Us" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="150" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Address box -->
+        <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="300" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Our Address" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="135" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="StudentHub&#xa;123 University Road&#xa;Mumbai, Maharashtra&#xa;Phone: +91 22 1234 5678&#xa;Email: support@studenthub.edu.in&#xa;Hours: Mon-Fri, 9-5" style="text;html=1;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="270" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Contact Form box -->
+        <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="350" height="350" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Send a Message" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="135" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="10" value="Name:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="410" y="165" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="183" width="310" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" value="Email:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="410" y="218" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="236" width="310" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="14" value="Subject:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="410" y="271" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="General Inquiry  v" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="289" width="310" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="16" value="Message:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="410" y="324" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="342" width="310" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="18" value="[ Send Message ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="425" width="310" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="19" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 12: FAQ ========== -->
+  <diagram id="faq" name="12 - FAQ">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Frequently Asked Questions" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="300" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- 8 accordion items -->
+        <mxCell id="5" value="+ How do I register for courses?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="135" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="+ How can I check my attendance?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="+ When are results published?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="205" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="+ How do I reset my password?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="+ Can I change my enrolled courses?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="275" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="+ How do I contact my professors?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="+ What is the minimum attendance?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="345" width="680" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="+ How do I submit assignments online?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="680" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" value="" style="line;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="680" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Still have questions? Contact us" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="445" width="300" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 13: FEEDBACK ========== -->
+  <diagram id="feedback" name="13 - Feedback">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="720" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Form box -->
+        <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="480" height="520" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Share Your Feedback" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="240" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="Name:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1"><mxGeometry x="190" y="150" width="60" height="18" as="geometry"/></mxCell>
+        <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="190" y="168" width="420" height="25" as="geometry"/></mxCell>
+
+        <mxCell id="8" value="Email:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1"><mxGeometry x="190" y="203" width="60" height="18" as="geometry"/></mxCell>
+        <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="190" y="221" width="420" height="25" as="geometry"/></mxCell>
+
+        <mxCell id="10" value="Type:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1"><mxGeometry x="190" y="256" width="60" height="18" as="geometry"/></mxCell>
+        <mxCell id="11" value="General  v" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="190" y="274" width="420" height="25" as="geometry"/></mxCell>
+
+        <!-- Rating fieldset -->
+        <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="315" width="420" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Rate your experience (1-5)" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="312" width="180" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="( ) 1-Poor   ( ) 2-Fair   ( ) 3-Good   ( ) 4-Very Good   ( ) 5-Excellent" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="400" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15" value="Message:" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1"><mxGeometry x="190" y="390" width="60" height="18" as="geometry"/></mxCell>
+        <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="190" y="408" width="420" height="70" as="geometry"/></mxCell>
+
+        <mxCell id="17" value="[ Submit Feedback ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="420" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="18" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 14: ADMIN ========== -->
+  <diagram id="admin" name="14 - Admin Panel">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="820" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Admin Panel" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="200" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Platform Stats -->
+        <mxCell id="5" value="Platform Statistics" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="125" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Total Students&#xa;10,248" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="220" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Active Courses&#xa;542" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="295" y="150" width="220" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Pending Requests&#xa;28" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="220" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Recent Registrations -->
+        <mxCell id="9" value="Recent Student Registrations" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="250" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Student ID  |  Name  |  Email  |  Dept  |  Date  |  Status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="245" width="690" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="STU2026045  |  Ananya Iyer  |  ananya@...  |  CS  |  15 Jul  |  Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="270" width="690" height="22" as="geometry"/></mxCell>
+        <mxCell id="12" value="STU2026046  |  Vikram Patel  |  vikram@...  |  ECE  |  16 Jul  |  Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="292" width="690" height="22" as="geometry"/></mxCell>
+        <mxCell id="13" value="STU2026047  |  Priya Nair  |  priya@...  |  Math  |  17 Jul  |  Pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="314" width="690" height="22" as="geometry"/></mxCell>
+        <mxCell id="14" value="STU2026048  |  Arjun Mehta  |  arjun@...  |  Mech  |  18 Jul  |  Rejected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="336" width="690" height="22" as="geometry"/></mxCell>
+        <mxCell id="15" value="STU2026049  |  Deepika R.  |  deepika@...  |  Civil  |  19 Jul  |  Pending" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="358" width="690" height="22" as="geometry"/></mxCell>
+
+        <!-- Course Management -->
+        <mxCell id="16" value="Course Management" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Code  |  Course Name  |  Faculty  |  Students  |  Semester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="690" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="[5 course rows...]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="690" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Quick Actions -->
+        <mxCell id="19" value="Quick Actions" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="[ Add Student ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="[ Create Course ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="235" y="550" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="[ Announcement ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="410" y="550" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="[ Reports ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="585" y="550" width="160" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="24" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ========== PAGE 15: ABOUT ========== -->
+  <diagram id="about" name="15 - About">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="HEADER  +  NAVIGATION BAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="720" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="About StudentHub" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="95" width="250" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="[Introductory paragraph about StudentHub]" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="125" width="680" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Our Mission -->
+        <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="680" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Our Mission" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="162" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="[Mission statement text...]" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="185" width="650" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- What We Offer -->
+        <mxCell id="9" value="What We Offer" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="- Course Management&#xa;- Assignment Tracking&#xa;- Attendance Monitoring&#xa;- Result Viewing&#xa;- Event Discovery&#xa;- Profile Management" style="text;html=1;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="265" width="200" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- Our Team table -->
+        <mxCell id="11" value="Our Team" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="375" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="60" y="400" width="200" height="25" as="geometry"/></mxCell>
+        <mxCell id="13" value="Role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="260" y="400" width="200" height="25" as="geometry"/></mxCell>
+        <mxCell id="14" value="Department" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=9;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="460" y="400" width="200" height="25" as="geometry"/></mxCell>
+        <mxCell id="15" value="Dr. Arvind Sharma" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="425" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="16" value="Project Lead" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="260" y="425" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="17" value="Computer Science" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="460" y="425" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="18" value="Priya Nair" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="447" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="19" value="Frontend Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="260" y="447" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="20" value="IT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="460" y="447" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="21" value="Rohan Mehta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="60" y="469" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="22" value="Backend Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="260" y="469" width="200" height="22" as="geometry"/></mxCell>
+        <mxCell id="23" value="CS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1"><mxGeometry x="460" y="469" width="200" height="22" as="geometry"/></mxCell>
+
+        <mxCell id="24" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="720" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+</mxfile>

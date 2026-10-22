@@ -1,208 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="View your semester-wise academic results, grades, and GPA on StudentHub.">
-  <title>Academic Results — StudentHub</title>
-  <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudentHub Results — View your academic results, grades, and SGPA for Semester 5.">
+    <title>Results — StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container">
-      <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="dashboard.html">Dashboard</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="login.html" class="nav-btn">Login</a></li>
-          <li><a href="register.html" class="nav-btn nav-btn-primary">Register</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<a href="#main-content">Skip to main content</a>
 
-  <section class="page-header">
-    <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Results</li>
-        </ol>
-      </nav>
-      <h1>Academic Results</h1>
-      <p>Review your semester grades, GPA trends, and overall academic performance.</p>
-    </div>
-  </section>
+<header>
+    <h1>&#127891; StudentHub</h1>
+    <p>Student Academic Portal</p>
+    <button id="hamburger-btn" onclick="toggleMenu()" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="main-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="assignment.html">Assignments</a> |
+        <a href="attendance.html">Attendance</a> |
+        <strong><a href="result.html">Results</a></strong> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a>
+    </nav>
+    <button id="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    <hr>
+</header>
 
-  <main id="main-content">
-    <section class="section">
-      <div class="container">
+<main id="main-content">
 
-        <!-- Semester Selector -->
-        <div class="form-group">
-          <label for="semester-select">Select Semester</label>
-          <select id="semester-select" class="form-select">
-            <option value="sem3" selected>Semester 3 — Fall 2026</option>
-            <option value="sem2">Semester 2 — Spring 2026</option>
-            <option value="sem1">Semester 1 — Fall 2025</option>
-          </select>
-        </div>
-
-        <!-- Stat Cards -->
-        <div class="admin-stats">
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-purple" aria-hidden="true">📈</span>
-            <div class="stat-info">
-              <h2 class="stat-number">8.7</h2>
-              <p class="stat-label">SGPA</p>
-            </div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-green" aria-hidden="true">🏆</span>
-            <div class="stat-info">
-              <h2 class="stat-number">8.5</h2>
-              <p class="stat-label">CGPA</p>
-            </div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-icon-blue" aria-hidden="true">📚</span>
-            <div class="stat-info">
-              <h2 class="stat-number">42</h2>
-              <p class="stat-label">Credits Earned</p>
-            </div>
-          </article>
-        </div>
-
-        <!-- Results Table -->
-        <section aria-labelledby="results-table-heading">
-          <h2 id="results-table-heading">Semester 3 Results</h2>
-          <div class="table-wrapper">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th scope="col">Course Code</th>
-                  <th scope="col">Course Name</th>
-                  <th scope="col">Credits</th>
-                  <th scope="col">Grade</th>
-                  <th scope="col">Grade Points</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td scope="row">CS301</td>
-                  <td>Data Structures &amp; Algorithms</td>
-                  <td>4</td>
-                  <td>A</td>
-                  <td>9.0</td>
-                </tr>
-                <tr>
-                  <td scope="row">CS302</td>
-                  <td>Web Development Fundamentals</td>
-                  <td>3</td>
-                  <td>A+</td>
-                  <td>10.0</td>
-                </tr>
-                <tr>
-                  <td scope="row">CS303</td>
-                  <td>Database Management Systems</td>
-                  <td>4</td>
-                  <td>B+</td>
-                  <td>8.0</td>
-                </tr>
-                <tr>
-                  <td scope="row">CS304</td>
-                  <td>Operating Systems</td>
-                  <td>4</td>
-                  <td>A</td>
-                  <td>9.0</td>
-                </tr>
-                <tr>
-                  <td scope="row">CS305</td>
-                  <td>Computer Networks</td>
-                  <td>3</td>
-                  <td>B+</td>
-                  <td>8.0</td>
-                </tr>
-                <tr>
-                  <td scope="row">CS306</td>
-                  <td>Software Engineering</td>
-                  <td>3</td>
-                  <td>A</td>
-                  <td>9.0</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td colspan="3"><strong>Semester GPA</strong></td>
-                  <td colspan="2"><strong>8.7</strong></td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-        </section>
-
-      </div>
+    <section>
+        <h2>Academic Results &mdash; Semester 5</h2>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo"><span class="logo-icon">🎓</span> StudentHub</a>
-          <p>Your all-in-one academic companion. Manage courses, track progress, and stay connected with your campus community.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="events.html">Events</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Students</h3>
-          <ul class="footer-links">
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="assignment.html">Assignments</a></li>
-            <li><a href="result.html">Results</a></li>
-            <li><a href="attendance.html">Attendance</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-heading">Support</h3>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="admin.html">Admin</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 StudentHub. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Twitter">🐦</a>
-          <a href="#" aria-label="GitHub">💻</a>
-          <a href="#" aria-label="LinkedIn">💼</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    <hr>
 
-  <script src="../js/main.js"></script>
+    <section>
+        <h3>Summary</h3>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>SGPA</th>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <th>CGPA</th>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <th>Credits Earned</th>
+                <td>42</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Subject-wise Results</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th scope="col">Code</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Credits</th>
+                    <th scope="col">Grade</th>
+                    <th scope="col">Grade Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS301</td>
+                    <td>Data Structures &amp; Algorithms</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>CS302</td>
+                    <td>Web Development</td>
+                    <td>3</td>
+                    <td>A+</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>CS303</td>
+                    <td>Database Management</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>CS304</td>
+                    <td>Operating Systems</td>
+                    <td>4</td>
+                    <td>B+</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>CS305</td>
+                    <td>Computer Networks</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>CS306</td>
+                    <td>Software Engineering</td>
+                    <td>3</td>
+                    <td>B+</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">SGPA</th>
+                    <td>8.7</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    <p>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a>
+    </p>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>

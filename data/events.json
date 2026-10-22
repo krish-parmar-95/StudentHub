@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Fest 2026",
+    "type": "Technical",
+    "date": "2026-07-18",
+    "venue": "Main Auditorium",
+    "time": "10:00 AM - 6:00 PM",
+    "description": "Annual technology festival featuring project demos, tech talks, and innovation challenges from students across all departments."
+  },
+  {
+    "id": 2,
+    "title": "Hackathon 24Hr",
+    "type": "Technical",
+    "date": "2026-07-25",
+    "venue": "CS Lab",
+    "time": "9:00 AM - 9:00 AM (Next Day)",
+    "description": "A 24-hour coding marathon where teams build innovative solutions to real-world problems and compete for exciting prizes."
+  },
+  {
+    "id": 3,
+    "title": "Cultural Night",
+    "type": "Cultural",
+    "date": "2026-08-05",
+    "venue": "Open Amphitheatre",
+    "time": "5:00 PM - 10:00 PM",
+    "description": "An evening of dance, drama, and music performances celebrating the diverse cultural heritage of our student community."
+  },
+  {
+    "id": 4,
+    "title": "Annual Sports Day",
+    "type": "Sports",
+    "date": "2026-08-15",
+    "venue": "College Sports Ground",
+    "time": "7:00 AM - 5:00 PM",
+    "description": "A full day of athletic competitions including track events, team sports, and individual contests across all departments."
+  },
+  {
+    "id": 5,
+    "title": "AI & Machine Learning Workshop",
+    "type": "Workshop",
+    "date": "2026-08-22",
+    "venue": "Seminar Hall A",
+    "time": "10:00 AM - 4:00 PM",
+    "description": "Hands-on workshop covering neural networks, deep learning frameworks, and practical AI applications with industry experts."
+  },
+  {
+    "id": 6,
+    "title": "Guest Lecture on Entrepreneurship",
+    "type": "Academic",
+    "date": "2026-09-03",
+    "venue": "Conference Room",
+    "time": "2:00 PM - 4:00 PM",
+    "description": "An inspiring talk by a successful startup founder sharing insights on building a business while still in college."
+  },
+  {
+    "id": 7,
+    "title": "Inter-College Debate Competition",
+    "type": "Academic",
+    "date": "2026-09-12",
+    "venue": "Main Auditorium",
+    "time": "10:00 AM - 3:00 PM",
+    "description": "Students from various colleges compete in a formal debate on current affairs and social issues to sharpen public speaking skills."
+  },
+  {
+    "id": 8,
+    "title": "Science Exhibition",
+    "type": "Academic",
+    "date": "2026-09-20",
+    "venue": "Exhibition Hall",
+    "time": "9:00 AM - 5:00 PM",
+    "description": "An exhibition showcasing innovative science projects and working models built by students from engineering and science departments."
+  },
+  {
+    "id": 9,
+    "title": "Music Concert - Sargam",
+    "type": "Cultural",
+    "date": "2026-10-02",
+    "venue": "Open Amphitheatre",
+    "time": "6:00 PM - 9:00 PM",
+    "description": "A lively concert featuring performances by the college band, solo artists, and a special guest performance by a popular indie artist."
+  },
+  {
+    "id": 10,
+    "title": "Art Exhibition - Canvas",
+    "type": "Cultural",
+    "date": "2026-10-10",
+    "venue": "Library Gallery",
+    "time": "10:00 AM - 6:00 PM",
+    "description": "A week-long display of student artwork including paintings, sculptures, digital art, and photography from talented campus artists."
+  },
+  {
+    "id": 11,
+    "title": "National Coding Contest",
+    "type": "Technical",
+    "date": "2026-10-24",
+    "venue": "CS Lab",
+    "time": "10:00 AM - 2:00 PM",
+    "description": "A competitive programming contest with challenging algorithmic problems, open to all students with prizes for top performers."
+  },
+  {
+    "id": 12,
+    "title": "Robotics Workshop",
+    "type": "Workshop",
+    "date": "2026-11-05",
+    "venue": "Electronics Lab",
+    "time": "9:00 AM - 5:00 PM",
+    "description": "A hands-on workshop where students learn to build and program basic robots using Arduino and sensor modules."
+  },
+  {
+    "id": 13,
+    "title": "Career Fair 2026",
+    "type": "Academic",
+    "date": "2026-11-15",
+    "venue": "Main Auditorium",
+    "time": "9:00 AM - 4:00 PM",
+    "description": "Top companies and recruiters visit campus to offer internships and full-time positions to final year and pre-final year students."
+  },
+  {
+    "id": 14,
+    "title": "Blood Donation Drive",
+    "type": "Sports",
+    "date": "2026-11-28",
+    "venue": "College Health Centre",
+    "time": "8:00 AM - 2:00 PM",
+    "description": "A social initiative in collaboration with the Red Cross where students and staff can voluntarily donate blood to save lives."
+  },
+  {
+    "id": 15,
+    "title": "International Yoga Day Celebration",
+    "type": "Sports",
+    "date": "2026-12-10",
+    "venue": "College Sports Ground",
+    "time": "6:00 AM - 8:00 AM",
+    "description": "A morning yoga session led by a certified instructor promoting fitness, mental well-being, and stress relief among students."
+  }
+]
